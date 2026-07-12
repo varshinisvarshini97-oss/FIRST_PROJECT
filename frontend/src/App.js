@@ -1,4 +1,3 @@
-import Navbar from "./components/SearchBar";
 import Home from "./pages/Home";
 
 function App() {
