@@ -11,7 +11,7 @@ const [members,setMembers]=useState([]);
 useEffect(()=>{
 
 axios.get(
-"http://localhost:5000/family"
+"https://first-project-o1rp.onrender.com/family"
 )
 
 .then(res=>{
@@ -29,7 +29,7 @@ const deleteMember=(id)=>{
 
 
 axios.delete(
-`http://localhost:5000/family/${id}`
+`https://first-project-o1rp.onrender.com/family/${id}`
 )
 
 .then(()=>{
